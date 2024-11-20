@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --text_base_color: white;
+  --font_family:"Roboto", sans-serif;
+  --secondary-color: #2ecc71;
+  --font-size: 16px;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #192e41;
+    justify-content: center;
+}
+
+
+header{
+    height: auto;
+    padding: 1%;
+    display: block;
+    background: linear-gradient(50deg, #228797, #00eeff); 
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer{
+  padding: 2vw;
+  display: block;
+  background: linear-gradient(50deg, #228797, #00eeff); 
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+span{
+  color: #00eeff;
+}
+
+img{
+  width: 50%;
+  height: 55%;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+img.button{
+  width: 4%;
+  height: 4%;
+  margin-right: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+a{
+  font-family: var(--font_family);
+  font-weight: 600;
+  font-style: italic;
+  color: var(--text_base_color);
+  font-size: 1.5rem;
+  text-align: justify;
+  text-decoration: none;
+}
+
+h1.title_text{
+  color: #07e0d9;
+  font-style: italic;
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--font_family);
+}
+
+
+p.normal_text{
+  font-family: var(--font_family);
+  font-weight: 600;
+  font-style: italic;
+  color: var(--text_base_color);
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+p.name_text{
+  font-family: var(--font_family);
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+p.skills_text{
+  color: #00eeff;
+  font-family: var(--font_family);
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.contact_text{
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.about_info{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-width: 1200px;
+  border: 3px solid #228797; 
+  border-radius: 23px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.a_link{
+  background-color: #168498;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #F6F6F6;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  border: 2px solid #22D4FD;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+}
+
+.presentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 40px;
+}
+
+.knowledge_info{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding: 2%;
+  border: 3px solid #228797;
+  border-radius: 15px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.8);
+}
+
+.lg_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image_text{
+  color: #00eeff;
+  font-family: var(--font_family);
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about_my_work_section{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  row-gap: 20px;
+}
+
+.proyect_div{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-top: 3%;
+  max-width: 1200px;
+  border: 3px solid #228797; 
+  border-radius: 15px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+:hover.card{
+  background-color: #1e7f8e;
+}
+
+:hover.about_info{
+  background-color: #1e7f8e;
+}
+
+.a_link:hover {
+  background-color: #000000;
+}
+
+
